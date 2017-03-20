@@ -42,7 +42,7 @@ def preditct_prices(dates, prices, x):
             return svr_lin.predit(x)[0],svr_poly.predit(x)[0]
 
 def main():
-    print ('hellllo')
+    print ('starting ...')
     get_data('aapl1.csv')
     predicted_price = preditct_prices(dates, prices, 29)
     print(predicted_price)
