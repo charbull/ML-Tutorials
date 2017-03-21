@@ -38,8 +38,8 @@ def preditct_prices(dates, prices, x):
             plt.title('Support Vector Regression')
             plt.legend()
             plt.show()
-            #return svr_rbf.predit(x)[0],svr_lin.predit(x)[0],svr_poly.predit(x)[0]
-            return svr_lin.predit(x)[0],svr_poly.predit(x)[0]
+            #return svr_rbf.predict(x)[0],svr_lin.predict(x)[0],svr_poly.predict(x)[0]
+            return svr_lin.predict(x)[0],svr_poly.predict(x)[0]
 
 def main():
     print ('starting ...')
